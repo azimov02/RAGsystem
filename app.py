@@ -67,7 +67,7 @@ Don't say anything except response to the user:"""
 
 input_query=st.text_input(label="Input query here")
 if(input_query):
-    client = genai.Client(api_key="******")
+    client = genai.Client(api_key="*****")
 
     query = client.models.generate_content(
         model="gemini-2.5-flash",
